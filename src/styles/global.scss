@@ -1,0 +1,16 @@
+@import "variables";
+
+html, body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background: $sage;
+    color: $sand;
+    overflow: hidden;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: $sand;
+}

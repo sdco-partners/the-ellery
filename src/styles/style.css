@@ -1,0 +1,164 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h5, h6, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*
+* Web Fonts from colophon-foundry.org
+*
+* The fonts included in this stylesheet are subject to the End User License you purchased
+* from Colophon Foundry. The fonts are protected under domestic and international trademark and
+* copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+* distributing this font software.
+*
+* (c) 2023 Colophon Foundry
+*
+* Licenced to Laine Hester, Stitch Design Co.
+*/
+@font-face {
+  font-family: "Fortescue";
+  src: url("../assets/fonts/fortescue-text-regular-pro.woff2") format("woff2"), url("../assets/fonts/fortescue-text-regular-pro.woff") format("woff"), url("../assets/fonts/fortescue-text-regular-pro.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: auto;
+  font-size: 100%;
+} /* 10pt / 13.34px */
+body {
+  color: #E0DBD3;
+  line-height: 1.25;
+  font-smoothing: antialiased;
+}
+
+.h1 {
+  font-size: 1.125rem;
+  font-family: "Fortescue", serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.333;
+  margin-bottom: 1em;
+}
+@media (min-width: 960px) {
+  .h1 {
+    font-size: clamp(1.125rem, 5vw, 1.875rem);
+  }
+}
+
+.h2 {
+  font-size: 0.8125rem;
+  font-family: "Fortescue", serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.555;
+}
+@media (min-width: 960px) {
+  .h2 {
+    font-size: 1.125rem;
+  }
+}
+
+.h3 {
+  font-size: 0.8125rem;
+  font-family: "franklin-gothic-atf", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+@media (min-width: 960px) {
+  .h3 {
+    font-size: 1rem;
+  }
+}
+
+/*
+* Web Fonts from colophon-foundry.org
+*
+* The fonts included in this stylesheet are subject to the End User License you purchased
+* from Colophon Foundry. The fonts are protected under domestic and international trademark and
+* copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+* distributing this font software.
+*
+* (c) 2023 Colophon Foundry
+*
+* Licenced to Laine Hester, Stitch Design Co.
+*/
+@font-face {
+  font-family: "Fortescue";
+  src: url("../assets/fonts/fortescue-text-regular-pro.woff2") format("woff2"), url("../assets/fonts/fortescue-text-regular-pro.woff") format("woff"), url("../assets/fonts/fortescue-text-regular-pro.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+html, body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background: #6C6E60;
+  color: #E0DBD3;
+  overflow: hidden;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #E0DBD3;
+}

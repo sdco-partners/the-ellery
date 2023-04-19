@@ -1,0 +1,41 @@
+/*
+* Web Fonts from colophon-foundry.org
+*
+* The fonts included in this stylesheet are subject to the End User License you purchased
+* from Colophon Foundry. The fonts are protected under domestic and international trademark and
+* copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+* distributing this font software.
+*
+* (c) 2023 Colophon Foundry
+*
+* Licenced to Laine Hester, Stitch Design Co.
+*/
+
+@font-face {
+    font-family: 'Fortescue';
+    src: url('../assets/fonts/fortescue-text-regular-pro.woff2') format('woff2'),
+        url('../assets/fonts/fortescue-text-regular-pro.woff') format('woff'),
+        url('../assets/fonts/fortescue-text-regular-pro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$serif: "Fortescue", serif;
+$sans: "franklin-gothic-atf", sans-serif;
+
+$h1: 1.875rem;
+$h1_mobile: 1.125rem;
+$h2: 1.125rem;
+$h2_mobile: 0.8125rem;
+$h3: 1rem;
+$h3_mobile: 0.8125rem;
+
+@import "./breakpoint-sass/stylesheets/breakpoint";
+
+$desktop: 1367px;
+$laptop: 960px;
+$tablet: 768px;
+$mobile: 400px;
+
+$sand: #E0DBD3;
+$sage: #6C6E60;

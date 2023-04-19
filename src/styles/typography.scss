@@ -1,0 +1,48 @@
+html {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: auto;
+    font-size: 100%;
+} /* 10pt / 13.34px */
+
+
+body {
+   color: $sand;
+   line-height: 1.25;
+   font-smoothing: antialiased; 
+}
+
+.h1 {
+    font-size: $h1_mobile;
+    font-family: $serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.333;
+    margin-bottom: 1em;
+    @include breakpoint($laptop) {
+        font-size: clamp($h2, 5vw, $h1);
+    }
+}
+
+.h2 {
+    font-size: $h2_mobile;
+    font-family: $serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.555;
+    @include breakpoint($laptop) {
+        font-size: $h2;
+    }
+}
+
+.h3 {
+    font-size: $h3_mobile;
+    font-family: $sans;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    @include breakpoint($laptop) {
+        font-size: $h3;
+    }
+}
