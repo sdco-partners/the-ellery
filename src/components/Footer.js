@@ -1,12 +1,17 @@
+import { ReactComponent as EqualHousing} from "../assets/graphics/EQUAL_HOUSING.svg";
+import { ReactComponent as Accessibility } from "../assets/graphics/ACCESSIBILITY.svg";
+
 export default function Footer () {
     return (
         <div className="footer">
-            <div>Equal Opportunity Housing Graphic</div>
+            <div className="footer__graphic"><EqualHousing></EqualHousing></div>
             <p className="footer__copy">info@theellery.com</p>
-            <p className="footer__copy">294 Amarillo Road</p>
-            <p className="footer__copy">Grand Prairie, Texas 293821</p>
+            <div className="footer__address">
+                <p className="footer__copy">294 Amarillo Road</p>
+                <p className="footer__copy">Grand Prairie, Texas 293821</p>
+            </div>
             <p className="footer__copy">800-009-0009</p>
-            <div>Accessibility Icon</div>
+            <div className="footer__graphic"><Accessibility></Accessibility></div>
         </div>
     )
 }

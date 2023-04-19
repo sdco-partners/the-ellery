@@ -5,6 +5,11 @@ html, body {
     height: 100vh;
     width: 100vw;
     background: $sage;
+    background-image: url("../assets/photos/Ellery_Background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
     color: $sand;
     overflow: hidden;
     text-align: center;

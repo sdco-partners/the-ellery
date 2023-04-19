@@ -1,0 +1,9 @@
+.header {
+    margin: 1rem auto;
+    width: calc(100% - 2rem);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+}

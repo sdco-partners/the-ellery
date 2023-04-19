@@ -1,0 +1,20 @@
+.footer {
+    margin: 1rem auto;
+    width: calc(100% - 2rem);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+
+    &__graphic {
+        display: block;
+        height: 1rem;
+        width: auto;
+        border: 1px solid red;
+        svg {
+            fill: currentColor;
+        }
+    }
+}

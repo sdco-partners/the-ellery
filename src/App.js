@@ -7,5 +7,5 @@ export default function App () {
     <>
       <Landing></Landing>
     </>
-  );
+  )
 }

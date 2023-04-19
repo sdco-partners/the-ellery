@@ -136,6 +136,16 @@
       "oAP" : "\/src\/assets\/fonts\/fortescue-text-regular-pro.woff2",
       "oF" : 0
     },
+    "\/src\/assets\/graphics\/ACCESSIBILITY.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/assets\/graphics\/ACCESSIBILITY.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/src\/assets\/graphics\/Ellery_AltLogo_01.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -145,6 +155,39 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/src\/assets\/graphics\/EQUAL_HOUSING.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/assets\/graphics\/EQUAL_HOUSING.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/src\/assets\/graphics\/SUNRISE.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/assets\/graphics\/SUNRISE.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/src\/assets\/photos\/Ellery_Background.jpg" : {
+      "ft" : 16384,
+      "iS" : 1268079,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/assets\/photos\/Ellery_Background.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/src\/components\/CenteredContent.js" : {
       "bF" : 0,
@@ -1549,6 +1592,51 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/src\/styles\/components\/centered-content.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/src\/styles\/components\/centered-content.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/src\/styles\/components\/footer.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/src\/styles\/components\/footer.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/src\/styles\/components\/header.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/src\/styles\/components\/header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/src\/styles\/global.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1559,6 +1647,33 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/src\/styles\/global.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/src\/styles\/pages\/landing.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/styles\/pages\/landing-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/src\/styles\/pages\/landing.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/styles\/pages\/landing.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

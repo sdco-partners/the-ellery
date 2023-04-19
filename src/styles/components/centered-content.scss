@@ -1,0 +1,21 @@
+.centered-content {
+    margin: 0 auto;
+    height: 100vh;
+    max-width: calc(100% - 6rem);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    @include breakpoint($tablet) {
+        max-width: 33%;
+    }
+    @include breakpoint($laptop) {
+        max-width: 33%;
+    }
+    &__logo {
+        svg {
+            fill: currentColor;
+        }
+    }
+    &__headline {
+    }
+}
