@@ -1652,33 +1652,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/pages\/landing.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/src\/styles\/pages\/landing-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/src\/styles\/pages\/landing.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/src\/styles\/pages\/landing.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
     "\/src\/styles\/reset.scss" : {
       "aP" : 0,
       "bl" : 0,

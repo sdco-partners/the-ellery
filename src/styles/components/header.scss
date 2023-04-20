@@ -1,9 +1,14 @@
 .header {
-    margin: 1rem auto;
-    width: calc(100% - 2rem);
+    margin: 0 auto;
+    width: 100%;
+    padding: 2rem;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     position: absolute;
     top: 0;
+
+    &__rule {
+        flex-grow: 4;
+    }
 }

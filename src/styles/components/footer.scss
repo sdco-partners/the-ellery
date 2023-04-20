@@ -1,6 +1,7 @@
 .footer {
-    margin: 1rem auto;
-    width: calc(100% - 2rem);
+    margin: 0 auto;
+    width: 100%;
+    padding: 2rem;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -9,9 +10,7 @@
     bottom: 0;
 
     &__graphic {
-        display: block;
-        height: 1rem;
-        width: auto;
+        height: 32px;
         border: 1px solid red;
         svg {
             fill: currentColor;

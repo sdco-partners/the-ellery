@@ -152,8 +152,8 @@ body {
 }
 html, body {
   margin: 0;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background: #6C6E60;
   background-image: url("../assets/photos/Ellery_Background.jpg");
   background-position: center;
@@ -171,13 +171,17 @@ a {
 }
 
 .header {
-  margin: 1rem auto;
-  width: calc(100% - 2rem);
+  margin: 0 auto;
+  width: 100%;
+  padding: 2rem;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   position: absolute;
   top: 0;
+}
+.header__rule {
+  flex-grow: 4;
 }
 
 .centered-content {
@@ -202,8 +206,9 @@ a {
   fill: currentColor;
 }
 .footer {
-  margin: 1rem auto;
-  width: calc(100% - 2rem);
+  margin: 0 auto;
+  width: 100%;
+  padding: 2rem;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -212,9 +217,7 @@ a {
   bottom: 0;
 }
 .footer__graphic {
-  display: block;
-  height: 1rem;
-  width: auto;
+  height: 32px;
   border: 1px solid red;
 }
 .footer__graphic svg {
