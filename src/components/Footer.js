@@ -5,11 +5,11 @@ export default function Footer () {
     return (
         <div className="footer">
             <EqualHousing></EqualHousing>
-            <p className="footer__copy">info@theellery.com</p>
+            <p className="footer__copy h3__sans">info@theellery.com</p>
             <div className="footer__address">
-                <p className="footer__copy">294 Amarillo Road<br></br>Grand Prairie, Texas 293821</p>
+                <p className="footer__copy h3__sans">294 Amarillo Road<br></br>Grand Prairie, Texas 293821</p>
             </div>
-            <p className="footer__copy">800-009-0009</p>
+            <p className="footer__copy h3__sans">800-009-0009</p>
             <Accessibility></Accessibility>
         </div>
     )

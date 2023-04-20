@@ -1,28 +1,29 @@
 html {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-smoothing: auto;
+    font-smooth: auto;
     font-size: 100%;
-} /* 10pt / 13.34px */
+}
 
 
 body {
    color: $sand;
    line-height: 1.25;
-   font-smoothing: antialiased; 
+   font-smooth: antialiased; 
 }
 
-// .h1 {
-//     font-size: $h1_mobile;
-//     font-family: $serif;
-//     font-style: normal;
-//     font-weight: 600;
-//     line-height: 1.333;
-//     margin-bottom: 1em;
-//     @include breakpoint($laptop) {
-//         font-size: clamp($h2, 5vw, $h1);
-//     }
-// }
+.h1 {
+    &__serif {
+        font-family: $serif;
+        font-size: $h1_mobile;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 0.01rem;
+        @include breakpoint($laptop) {
+            font-size: $h1;
+        }
+    }
+}
 
 .h2 {
     &__serif {
@@ -31,6 +32,7 @@ body {
         font-style: normal;
         font-weight: 400;
         text-transform: uppercase;
+        letter-spacing: 0.05rem;
         @include breakpoint($laptop) {
             font-size: $h2;
         }
@@ -41,6 +43,7 @@ body {
         font-style: normal;
         font-weight: 400;
         text-transform: uppercase;
+        letter-spacing: 0.05rem;
         @include breakpoint($laptop) {
             font-size: $h2;
         }
@@ -48,17 +51,15 @@ body {
 }
 
 .h3 {
-    font-size: $h3_mobile;
-    font-style: normal;
-    font-weight: 400;
-    text-transform: uppercase;
-    &__serif {
-        font-family: $serif;
-    }
     &__sans {
         font-family: $sans;
-    }
-    @include breakpoint($laptop) {
-        font-size: $h3;
+        font-size: $h3_mobile;
+        font-style: normal;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 0.05rem;
+        @include breakpoint($laptop) {
+            font-size: $h3;
+        }
     }
 }

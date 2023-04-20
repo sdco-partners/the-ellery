@@ -6,16 +6,20 @@
     flex-flow: column nowrap;
     justify-content: center;
     @include breakpoint($tablet) {
-        max-width: 33%;
-    }
-    @include breakpoint($laptop) {
-        max-width: 33%;
+        max-width: 40%;
     }
     &__logo {
         svg {
             fill: currentColor;
         }
     }
-    &__headline {
+    &__vertical-rule {
+        margin: 1.25rem auto;
+        width: 2px;
+        height: 5rem;
+        background-color: $sand;
+        @include breakpoint($tablet){
+            height: 3rem;
+        }
     }
 }

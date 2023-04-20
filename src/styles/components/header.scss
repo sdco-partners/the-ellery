@@ -10,11 +10,17 @@
     align-items: center;
 
     &__rule {
+        height: 1.75px;
+        background-color: $sand;
         flex-grow: 4;
+        margin: 0 0.75rem;
     }
 
     svg {
-        height: 1rem;
+        height: .85rem;
         fill: currentColor;
+        @include breakpoint($laptop) {
+            height: 1rem;
+        }
     }
 }

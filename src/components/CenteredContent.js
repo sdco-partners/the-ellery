@@ -7,7 +7,7 @@ export default function Content () {
             <div className="centered-content__logo">
                 <Logo></Logo>
             </div>
-            <div>Vertical Line</div>
+            <div className="centered-content__vertical-rule"></div>
             <div className="centered-content__headline">
                 <h2>
                     <span className="h2__serif">Coming </span>
