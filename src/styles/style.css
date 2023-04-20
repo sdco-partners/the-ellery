@@ -105,34 +105,24 @@ body {
 
 .h2__serif {
   font-family: "Fortescue", serif;
-  font-size: 0.8125rem;
+  font-size: 1.125rem;
   font-style: normal;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
-}
-@media (min-width: 960px) {
-  .h2__serif {
-    font-size: 1.125rem;
-  }
 }
 .h2__sans {
   font-family: "franklin-gothic-atf", sans-serif;
-  font-size: 0.8125rem;
+  font-size: 1.125rem;
   font-style: normal;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
-}
-@media (min-width: 960px) {
-  .h2__sans {
-    font-size: 1.125rem;
-  }
 }
 
 .h3__sans {
   font-family: "franklin-gothic-atf", sans-serif;
-  font-size: 0.625rem;
+  font-size: 0.675rem;
   font-style: normal;
   font-weight: 400;
   line-height: 1.75;
@@ -217,7 +207,7 @@ a {
 .centered-content {
   margin: 0 auto;
   height: 100vh;
-  max-width: 75%;
+  max-width: 80%;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
