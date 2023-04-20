@@ -174,14 +174,19 @@ a {
   margin: 0 auto;
   width: 100%;
   padding: 2rem;
+  position: absolute;
+  top: 0;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  position: absolute;
-  top: 0;
+  align-items: center;
 }
 .header__rule {
   flex-grow: 4;
+}
+.header svg {
+  height: 1rem;
+  fill: currentColor;
 }
 
 .centered-content {
@@ -216,10 +221,7 @@ a {
   position: absolute;
   bottom: 0;
 }
-.footer__graphic {
-  height: 32px;
-  border: 1px solid red;
-}
-.footer__graphic svg {
+.footer svg {
+  height: 1.5rem;
   fill: currentColor;
 }

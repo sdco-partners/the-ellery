@@ -9,11 +9,9 @@
     position: absolute;
     bottom: 0;
 
-    &__graphic {
-        height: 32px;
-        border: 1px solid red;
-        svg {
-            fill: currentColor;
-        }
+    
+    svg {
+        height: 1.5rem;
+        fill: currentColor;
     }
 }

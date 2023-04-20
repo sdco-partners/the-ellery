@@ -2,13 +2,19 @@
     margin: 0 auto;
     width: 100%;
     padding: 2rem;
+    position: absolute;
+    top: 0;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    position: absolute;
-    top: 0;
+    align-items: center;
 
     &__rule {
         flex-grow: 4;
+    }
+
+    svg {
+        height: 1rem;
+        fill: currentColor;
     }
 }
