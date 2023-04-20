@@ -1,11 +1,11 @@
 .centered-content {
     margin: 0 auto;
     height: 100vh;
-    max-width: calc(100% - 6rem);
+    max-width: 75%;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    @include breakpoint($tablet) {
+    @include breakpoint($laptop) {
         max-width: 40%;
     }
     &__logo {
@@ -18,7 +18,7 @@
         width: 2px;
         height: 5rem;
         background-color: $sand;
-        @include breakpoint($tablet){
+        @include breakpoint($laptop){
             height: 3rem;
         }
     }

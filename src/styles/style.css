@@ -132,15 +132,16 @@ body {
 
 .h3__sans {
   font-family: "franklin-gothic-atf", sans-serif;
-  font-size: 0.8125rem;
+  font-size: 0.625rem;
   font-style: normal;
   font-weight: 400;
+  line-height: 1.75;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
 }
 @media (min-width: 960px) {
   .h3__sans {
-    font-size: 1rem;
+    font-size: 0.75rem;
   }
 }
 
@@ -212,12 +213,12 @@ a {
 .centered-content {
   margin: 0 auto;
   height: 100vh;
-  max-width: calc(100% - 6rem);
+  max-width: 75%;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
 }
-@media (min-width: 768px) {
+@media (min-width: 960px) {
   .centered-content {
     max-width: 40%;
   }
@@ -231,7 +232,7 @@ a {
   height: 5rem;
   background-color: #E0DBD3;
 }
-@media (min-width: 768px) {
+@media (min-width: 960px) {
   .centered-content__vertical-rule {
     height: 3rem;
   }
@@ -248,7 +249,19 @@ a {
   position: absolute;
   bottom: 0;
 }
+@media (min-width: 960px) {
+  .footer__copy {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+  }
+}
 .footer svg {
   height: 1.5rem;
   fill: currentColor;
+}
+.footer svg:first-of-type {
+  height: 1.725rem;
 }

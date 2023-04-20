@@ -8,10 +8,23 @@
     align-items: center;
     position: absolute;
     bottom: 0;
-
+    
+    &__copy {
+        @include breakpoint($laptop) {
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            justify-content: space-around;
+            // this isn't quite right
+            gap: 5rem;
+        }
+    }
     
     svg {
         height: 1.5rem;
         fill: currentColor;
+        &:first-of-type {
+            height: 1.725rem;
+        }
     }
 }
