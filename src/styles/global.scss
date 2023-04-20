@@ -13,6 +13,10 @@ html, body {
     color: $sand;
     overflow: hidden;
     text-align: center;
+    ::selection {
+        background: $sand;
+        color: $sage;
+    }
 }
 
 a {

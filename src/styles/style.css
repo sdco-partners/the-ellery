@@ -177,6 +177,10 @@ html, body {
   overflow: hidden;
   text-align: center;
 }
+html ::selection, body ::selection {
+  background: #E0DBD3;
+  color: #6C6E60;
+}
 
 a {
   text-decoration: none;
@@ -197,7 +201,7 @@ a {
 .header__rule {
   height: 1.75px;
   background-color: #E0DBD3;
-  flex-grow: 4;
+  flex-grow: 1;
   margin: 0 0.75rem;
 }
 .header svg {
@@ -249,13 +253,15 @@ a {
   position: absolute;
   bottom: 0;
 }
+.footer__copy {
+  flex-grow: 1;
+}
 @media (min-width: 960px) {
   .footer__copy {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-around;
-    gap: 5rem;
   }
 }
 .footer svg {
