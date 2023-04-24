@@ -6,9 +6,11 @@ export default function Footer () {
         <div className="footer">
             <EqualHousing></EqualHousing>
             <div className="footer__copy">
-                <p className="footer__copy__email h3__sans">info@theellery.com</p>
+                <a href="mailto:info@theellery.com" className="footer__copy__email h3__sans">info@theellery.com</a>
                 <div className="footer__address">
-                    <p className="footer__copy__address h3__sans">4210 Dechman Drive<br></br>Grand Prairie, Texas 75052</p>
+                    <a href="https://goo.gl/maps/6epqhs1nvvw3dYnx9" target="_blank" rel="noreferrer">
+                        <p className="footer__copy__address h3__sans">4210 Dechman Drive<br></br>Grand Prairie, Texas 75052</p>
+                    </a>
                 </div>
                 <p className="footer__copy__phone h3__sans">469.361.4424</p>
             </div>
