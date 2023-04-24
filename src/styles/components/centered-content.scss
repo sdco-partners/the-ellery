@@ -5,8 +5,10 @@
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
+    padding-bottom: 3rem;
     @include breakpoint($laptop) {
         max-width: 40%;
+        padding-bottom: 0;
     }
     &__logo {
         svg {
@@ -16,7 +18,7 @@
     &__vertical-rule {
         margin: 1.25rem auto;
         width: 2px;
-        height: 5rem;
+        height: 3rem;
         background-color: $sand;
         @include breakpoint($laptop){
             height: 3rem;

@@ -17,6 +17,170 @@
       "oAP" : "\/.gitignore",
       "oF" : 0
     },
+    "\/build\/asset-manifest.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/build\/asset-manifest-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/build\/favicon.ico" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/favicon.ico",
+      "oF" : 0
+    },
+    "\/build\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/index.html",
+      "oF" : 0
+    },
+    "\/build\/manifest.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/build\/manifest-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/build\/robots.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/robots.txt",
+      "oF" : 0
+    },
+    "\/build\/static\/css\/main.0c951b81.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/static\/css\/main.0c951b81-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/build\/static\/css\/main.0c951b81.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/static\/css\/main.0c951b81.css.map",
+      "oF" : 0
+    },
+    "\/build\/static\/js\/main.5107f09d.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/static\/js\/main.5107f09d-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/build\/static\/js\/main.5107f09d.js.LICENSE.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/static\/js\/main.5107f09d.js.LICENSE.txt",
+      "oF" : 0
+    },
+    "\/build\/static\/js\/main.5107f09d.js.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/static\/js\/main.5107f09d.js.map",
+      "oF" : 0
+    },
+    "\/build\/static\/media\/ACCESSIBILITY.11352ac0e517d13e13dc7fda74c2e701.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/build\/static\/media\/ACCESSIBILITY.11352ac0e517d13e13dc7fda74c2e701.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/build\/static\/media\/Ellery_AltLogo_01.439b3cb7373b93d3976f6882694b71c8.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/build\/static\/media\/Ellery_AltLogo_01.439b3cb7373b93d3976f6882694b71c8.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/build\/static\/media\/Ellery_Background.1ae5bf574a776541bb61.jpg" : {
+      "ft" : 16384,
+      "iS" : 1268079,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/static\/media\/Ellery_Background.1ae5bf574a776541bb61.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/build\/static\/media\/EQUAL_HOUSING.331cb577bc8ed0e729e7b986b8dfd224.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/build\/static\/media\/EQUAL_HOUSING.331cb577bc8ed0e729e7b986b8dfd224.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/build\/static\/media\/fortescue-text-regular-pro.52b11ee1c731cd6c62dc.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/static\/media\/fortescue-text-regular-pro.52b11ee1c731cd6c62dc.woff2",
+      "oF" : 0
+    },
+    "\/build\/static\/media\/fortescue-text-regular-pro.31051123d62165ad1930.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/static\/media\/fortescue-text-regular-pro.31051123d62165ad1930.woff",
+      "oF" : 0
+    },
+    "\/build\/static\/media\/fortescue-text-regular-pro.f83d2cf839d898881942.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/static\/media\/fortescue-text-regular-pro.f83d2cf839d898881942.ttf",
+      "oF" : 0
+    },
+    "\/build\/static\/media\/SUNRISE.56d9aa78ee6ce19004bf02494ec2a39f.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/build\/static\/media\/SUNRISE.56d9aa78ee6ce19004bf02494ec2a39f.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/node_modules" : {
       "ft" : 65536,
       "oA" : 2,

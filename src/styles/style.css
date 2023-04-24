@@ -211,10 +211,12 @@ a {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
+  padding-bottom: 3rem;
 }
 @media (min-width: 960px) {
   .centered-content {
     max-width: 40%;
+    padding-bottom: 0;
   }
 }
 .centered-content__logo svg {
@@ -223,7 +225,7 @@ a {
 .centered-content__vertical-rule {
   margin: 1.25rem auto;
   width: 2px;
-  height: 5rem;
+  height: 3rem;
   background-color: #E0DBD3;
 }
 @media (min-width: 960px) {
