@@ -12,7 +12,7 @@ export default function Footer () {
                         <p className="footer__copy__address h3__sans">4210 Dechman Drive<br></br>Grand Prairie, Texas 75052</p>
                     </a>
                 </div>
-                <p className="footer__copy__phone h3__sans">469.361.4424</p>
+                <p className="footer__copy__phone h3__sans"><a href="tel:469.361.4424">469.361.4424</a></p>
             </div>
             <Accessibility></Accessibility>
         </div>
