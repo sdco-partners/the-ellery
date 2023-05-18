@@ -15,7 +15,7 @@ export default function Content () {
                 </h2>
                 <h2>
                     <span className="h2__sans">Leasing </span>
-                    <span className="h2__serif">this Fall</span>
+                    <span className="h2__serif">this Summer</span>
                 </h2>
             </div>
         </div>
